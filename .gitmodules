@@ -1,0 +1,3 @@
+[submodule "ztp-lab"]
+	path = ztp-lab
+	url = https://github.com/thomas-rotszyld/ztp-lab.git
