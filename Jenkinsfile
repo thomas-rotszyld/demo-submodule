@@ -1,7 +1,7 @@
 pipeline {
     agent { label 'testslave' }
     stages {
-        stage {
+        stage('Test Submodule') {
             steps {
                 sh "echo 'hello world'"
             }
