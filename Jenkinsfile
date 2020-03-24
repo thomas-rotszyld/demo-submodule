@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh '''
                     cd ztp-lab
+                    git checkout master
                     ls -l
                 '''
             }
