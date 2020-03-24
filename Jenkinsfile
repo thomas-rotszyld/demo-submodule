@@ -13,5 +13,15 @@ pipeline {
                 '''
             }
         }
+        stage('Set env var') {
+            steps {
+                env.custom_var = "HELLO AIRBUS WORLD"
+            }
+        }
+        stage('Test Env Var') {
+            steps {
+                echo "$env.custom_var"
+            }
+        }  
     }
 }
