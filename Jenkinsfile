@@ -4,7 +4,6 @@ pipeline {
         stage('Test Submodule') {
             steps {
                 sh '''
-                    cd ztp-lab
                     ls -l
                 '''
             }
