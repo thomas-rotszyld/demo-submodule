@@ -3,7 +3,9 @@ pipeline {
     stages {
         stage('Test Submodule') {
             steps {
-                sh "echo 'hello world'"
+                sh '''
+                    cd ztp-lab
+                    ls -l
             }
         }
     }
